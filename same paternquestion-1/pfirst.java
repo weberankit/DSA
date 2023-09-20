@@ -94,8 +94,16 @@ while(num1<num2){
 
 }*/
 
+String str=input.next();
+char store;
+String check="";
+for(int i=str.length()-1;i>=0;i--){
+  store=str.charAt(i);
+  check+=store;
 
 
+}
+System.out.println(check);
 
      }
 
